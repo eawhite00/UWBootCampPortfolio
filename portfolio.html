@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Elliott White's Web Development Portfolio</title>
+
+    <!-- I'm going to be using Bootstrap throughout, so here's my stylesheet import for that -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Here's my own stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand" href="index.html" id="logo">Elliott White</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Start of container -->
+    <div class="container">
+        <main class="row">
+            <div class="col-md-8">
+                <article class="block">
+                    <h1 class="block-header">Portfolio</h1>
+                    <hr />
+                    <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <div class="card">
+                                <img src="assets/imgs/train-timer.jpg" class="card-img-top card-pic" alt="hi">
+                                <div class="card-body">
+                                    <h5 class="card-title">Train Timer</h5>
+                                    <p class="card-text">This web app simulates a board for tracking train arrival
+                                        times. It was created to show off my ability to store data in a firebase db, as
+                                        well as use moment.js to calculate train arrival times.</p>
+                                </div>
+                                <div class="card-body">
+                                    <a href="https://github.com/eawhite00/train-timer" class="card-link">Github
+                                        Repo</a>
+                                    <a href="https://eawhite00.github.io/train-timer/" class="card-link">Hosted
+                                        Site</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <div class="card">
+                                <img src="assets/imgs/gif-search.jpg" class="card-img-top card-pic" alt="hi">
+                                <div class="card-body">
+                                    <h5 class="card-title">GifTastic</h5>
+                                    <p class="card-text">This little web app is a gif searcher, using pre-defined or
+                                        user inputted terms. It was made to demonstrate my ability to write an api call,
+                                        generate buttons dynamically, and give elements attributes (used to pause and
+                                        unpause gifs).</p>
+                                </div>
+                                <div class="card-body">
+                                    <a href="https://github.com/eawhite00/GifTastic" class="card-link">Github Repo</a>
+                                    <a href="https://eawhite00.github.io/GifTastic/" class="card-link">Hosted Site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <div class="card">
+                                <img src="assets/imgs/dave-trivia.jpg" class="card-img-top card-pic"
+                                    alt="dave trivia game image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dave Trivia</h5>
+                                    <p class="card-text">This is a trivia game about all of your favorite Daves. I built
+                                        as a demonstration of my ability to write timers and handle differnt kinds of
+                                        events. The theme is "Dave" because I couldn't think of a better theme and
+                                        needed to just finish the assignent.</p>
+                                </div>
+                                <div class="card-body">
+                                    <a href="https://github.com/eawhite00/TriviaGame" class="card-link">Github Repo</a>
+                                    <a href="https://eawhite00.github.io/TriviaGame/" class="card-link">Hosted Site</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <div class="card">
+                                <img src="assets/imgs/crystal-game.jpg" class="card-img-top card-pic"
+                                    alt="crystal game image">
+                                <div class="card-body">
+                                    <h5 class="card-title">The Crystal Game</h5>
+                                    <p class="card-text">This is a simple game built as part of my early forays into
+                                        jquery. The theme is space, or something, I don't know.</p>
+                                </div>
+                                <div class="card-body">
+                                    <a href="https://github.com/eawhite00/unit-4-game" class="card-link">Github Repo</a>
+                                    <a href="https://eawhite00.github.io/unit-4-game/" class="card-link">Hosted Site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <div class="card">
+                                <img src="assets/imgs/utrippin.jpg" class="card-img-top card-pic"
+                                    alt="word guess game image">
+                                <div class="card-body">
+                                    <h5 class="card-title">uTrippin'</h5>
+                                    <p class="card-text">This was the first group project I created. My group created an
+                                        application to help the user plan a road trip. My contribution was integration
+                                        Google Maps, and using the Parsley library to validate input.</p>
+                                </div>
+                                <div class="card-body">
+                                    <a href="https://github.com/eawhite00/UWBootCampProject1" class="card-link">Github
+                                        Repo</a>
+                                    <a href="https://eawhite00.github.io/UWBootCampProject1/" class="card-link">Hosted
+                                        Site</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <div class="card">
+                                <img src="assets/imgs/word-guess.jpg" class="card-img-top card-pic"
+                                    alt="word guess game image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Word Guess Game</h5>
+                                    <p class="card-text">Here's a simple cat-themed word guess game I made as one of my
+                                        first javascript assignments</p>
+                                </div>
+                                <div class="card-body">
+                                    <a href="https://github.com/eawhite00/Word-Guess-Game" class="card-link">Github
+                                        Repo</a>
+                                    <a href="https://eawhite00.github.io/Word-Guess-Game/" class="card-link">Hosted
+                                        Site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </div>
+    <!-- End of container -->
+
+    <!-- Start of footer -->
+    <footer class="footer">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+            &copy; Copyright nobody really
+        </p>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- Bootstrap JS imports -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
